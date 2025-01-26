@@ -1,0 +1,2 @@
+# Clear Python Notebook outputs on commit.
+*.ipynb filter=strip-notebook-output  
