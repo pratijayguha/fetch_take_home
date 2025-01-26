@@ -18,9 +18,11 @@ TRANSACTIONS_SAMPLE_CSV_PATH = os.path.join(
 )
 PRODUCTS_SAMPLE_CSV_PATH = os.path.join(DATA_PATH, "raw", "sample", "products.csv")
 
-USERS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "raw", "users.parquet")
-TRANSACTIONS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "raw", "transactions.parquet")
-PRODUCTS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "raw", "products.parquet")
+USERS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "clean", "users.parquet")
+TRANSACTIONS_CLEAN_PARQUET_PATH = os.path.join(
+    DATA_PATH, "clean", "transactions.parquet"
+)
+PRODUCTS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "clean", "products.parquet")
 
 USERS_NULL_PCT_CHART_PATH = os.path.join(PLOTS_PATH, "null_percentages", "users.png")
 TRANSACTIONS_NULL_PCT_CHART_PATH = os.path.join(
