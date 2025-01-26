@@ -6,6 +6,7 @@ import os
 # PATH variables
 PROJECT_PATH = os.path.dirname(os.getcwd())
 DATA_PATH = os.path.join(PROJECT_PATH, "data")
+PLOTS_PATH = os.path.join(PROJECT_PATH, "plots")
 
 USERS_CSV_PATH = os.path.join(DATA_PATH, "raw", "USER_TAKEHOME.csv")
 TRANSACTIONS_CSV_PATH = os.path.join(DATA_PATH, "raw", "TRANSACTION_TAKEHOME.csv")
@@ -20,3 +21,11 @@ PRODUCTS_SAMPLE_CSV_PATH = os.path.join(DATA_PATH, "raw", "sample", "products.cs
 USERS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "raw", "users.parquet")
 TRANSACTIONS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "raw", "transactions.parquet")
 PRODUCTS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "raw", "products.parquet")
+
+USERS_NULL_PCT_CHART_PATH = os.path.join(PLOTS_PATH, "null_percentages", "users.png")
+TRANSACTIONS_NULL_PCT_CHART_PATH = os.path.join(
+    PLOTS_PATH, "null_percentages", "transactions.png"
+)
+PRODUCTS_NULL_PCT_CHART_PATH = os.path.join(
+    PLOTS_PATH, "null_percentages", "products.png"
+)
