@@ -15,6 +15,8 @@ USERS_SAMPLE_CSV_PATH = os.path.join(DATA_PATH, "raw", "sample", "users.csv")
 TRANSACTIONS_SAMPLE_CSV_PATH = os.path.join(
     DATA_PATH, "raw", "sample", "transactions.csv"
 )
-PRODUCTS_SAMPLE_CSV_PATH = os.path.join(
-    DATA_PATH, "raw", "sample", "products.csv"
-)
+PRODUCTS_SAMPLE_CSV_PATH = os.path.join(DATA_PATH, "raw", "sample", "products.csv")
+
+USERS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "raw", "users.parquet")
+TRANSACTIONS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "raw", "transactions.parquet")
+PRODUCTS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "raw", "products.parquet")
