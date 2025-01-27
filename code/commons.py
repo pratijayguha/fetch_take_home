@@ -24,10 +24,3 @@ TRANSACTIONS_CLEAN_PARQUET_PATH = os.path.join(
 )
 PRODUCTS_CLEAN_PARQUET_PATH = os.path.join(DATA_PATH, "clean", "products.parquet")
 
-USERS_NULL_PCT_CHART_PATH = os.path.join(PLOTS_PATH, "null_percentages", "users.png")
-TRANSACTIONS_NULL_PCT_CHART_PATH = os.path.join(
-    PLOTS_PATH, "null_percentages", "transactions.png"
-)
-PRODUCTS_NULL_PCT_CHART_PATH = os.path.join(
-    PLOTS_PATH, "null_percentages", "products.png"
-)
